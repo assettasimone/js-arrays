@@ -50,12 +50,27 @@ console.log('primo elemento rimosso dalla lista ' + firstTeacher);
 
 teachers.push('Vanessa');
 
-console.log(teachers)
+console.log(teachers);
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+
+teachers.unshift('Sarah');
+console.log(teachers);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+
+let lewisIndex = null;
+const lostTeacher = 'Lewis';
+
+for (let i = 0; i < teachers.length; i++) {
+
+  if (teachers[i] === lostTeacher) {
+    lewisIndex = i;
+  }
+}
+
+console.log(lewisIndex);
+
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
