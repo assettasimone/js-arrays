@@ -34,7 +34,11 @@ for (let i = 0; i < teachers.length; i++) {
 
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+let lastTeacher = null;
+
+lastTeacher = teachers.pop();
+
+console.log('Ultimo insegnante rimosso ' + lastTeacher)
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
