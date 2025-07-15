@@ -15,14 +15,17 @@ let teacherSelector = 4;
 fourthTeacher = teachers[teacherSelector - 1];
 console.log(fourthTeacher);
 
+//ciclo for inutile o più complesso
+
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 teacherSelector = 5;
 const newTeacher = 'Patrick';
 
 teachers[teacherSelector - 1] = newTeacher;
 
-
 console.log(teachers)
+
+//ciclo for inutile o più complesso
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
