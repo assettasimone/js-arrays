@@ -59,7 +59,7 @@ for (let i = 0; i < teachers.length; i++) {
 
 console.log(lewisIndex);
 
-
+//dovevo utilizzare indexOf
 
 
 // 8. Verifica se l'array teachers è vuoto
