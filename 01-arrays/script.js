@@ -25,16 +25,12 @@ teachers[teacherSelector - 1] = newTeacher;
 console.log(teachers)
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-let lastTeacher = null;
-
-lastTeacher = teachers.pop();
+const lastTeacher = teachers.pop();
 
 console.log('Ultimo insegnante rimosso ' + lastTeacher)
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-let firstTeacher = null;
-
-firstTeacher = teachers.shift();
+const firstTeacher = teachers.shift();
 
 console.log('primo elemento rimosso dalla lista ' + firstTeacher);
 
@@ -62,6 +58,8 @@ for (let i = 0; i < teachers.length; i++) {
 }
 
 console.log(lewisIndex);
+
+
 
 
 // 8. Verifica se l'array teachers è vuoto
